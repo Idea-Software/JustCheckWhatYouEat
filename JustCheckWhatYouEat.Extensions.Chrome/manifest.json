@@ -19,7 +19,8 @@
         {
             "matches": [ "*://*.just-eat.co.uk/restaurants-*" ],
             "css": [ "styles.css" ],
-            "js": [ "lib/jquery-2.1.3.min.js", "lib/jquery.mousewheel.min.js", "lib/String.min.js", "app.config.js", "app.main.js" ],
+            "js": [ "lib/jquery-2.1.3.min.js", "lib/jquery.mousewheel.min.js", "lib/String.min.js",
+                    "app.config.js", "app.classes.js", "app.main.js" ],
             "run_at": "document_end"
         }
     ],

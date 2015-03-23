@@ -155,6 +155,7 @@
       <DependentUpon>ConnectionStrings.config</DependentUpon>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="AppSettings.config" />
     <None Include="Properties\PublishProfiles\JustCheckWhatYouEat.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
