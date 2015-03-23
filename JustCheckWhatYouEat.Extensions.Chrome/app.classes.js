@@ -221,6 +221,9 @@
                 $(Idea.Config.Selectors.Pictures)[0].scrollLeft = 0;
                 $("#idea_infoBackdrop, #idea_infoBox").addClass(Idea.Config.Classes.Hidden);
             });
+
+
+            isInitialized = true;
         },
         this.Log = function (text) {
             console.log(String.format("INJECTOR: {0}; ", text, this.Category, this.Food, this.Id));
