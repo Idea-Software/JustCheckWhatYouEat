@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E412C97A-5342-4DF3-8FC7-C6EC3EABE57B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{9B63522A-7041-4C46-B83D-6C91CD217DD9}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\JustCheckWhatYouEatApi-WAWS-dev.json = PublishScripts\Configurations\JustCheckWhatYouEatApi-WAWS-dev.json
+		PublishScripts\Configurations\JustCheckWhatYouEatWebApi-WAWS-dev.json = PublishScripts\Configurations\JustCheckWhatYouEatWebApi-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCheckWhatYouEat.Extensions.Chrome", "JustCheckWhatYouEat.Extensions.Chrome\JustCheckWhatYouEat.Extensions.Chrome.csproj", "{313D3064-4C92-4EAD-97E7-E646130F082A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCheckWhatYouEat.Api", "JustCheckWhatYouEat.Api\JustCheckWhatYouEat.Api.csproj", "{4A11C46F-C80C-453F-9CC0-34490C87C886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCheckWhatYouEat.ApiTests", "JustCheckWhatYouEat.ApiTests\JustCheckWhatYouEat.ApiTests.csproj", "{1CB09140-B411-4EFC-8B61-F2FEA1EFAF50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313D3064-4C92-4EAD-97E7-E646130F082A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313D3064-4C92-4EAD-97E7-E646130F082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A11C46F-C80C-453F-9CC0-34490C87C886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A11C46F-C80C-453F-9CC0-34490C87C886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A11C46F-C80C-453F-9CC0-34490C87C886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A11C46F-C80C-453F-9CC0-34490C87C886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB09140-B411-4EFC-8B61-F2FEA1EFAF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB09140-B411-4EFC-8B61-F2FEA1EFAF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB09140-B411-4EFC-8B61-F2FEA1EFAF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB09140-B411-4EFC-8B61-F2FEA1EFAF50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B63522A-7041-4C46-B83D-6C91CD217DD9} = {E412C97A-5342-4DF3-8FC7-C6EC3EABE57B}
+	EndGlobalSection
+EndGlobal
